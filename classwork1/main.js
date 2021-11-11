@@ -59,7 +59,7 @@ console.log(books[3]);
 
 let height = 23;
 let width = 10;
-let s = (height + width);
+let s = height + width;
 console.log(s + ' cm^2');
 
 // 6. Напиши код, який знаходить об'єм циліндра заввишки 10м (змінна heightC) та діаметром основи 4м (dC),
