@@ -1,4 +1,5 @@
-// task1
+// task1   - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
+//           Вивести кожну змінну за допомогою: console.log , alert, document.write
 
 
 // let str1 = 'hello';
@@ -60,22 +61,23 @@
 // document.write(booleanNegative);
 
 
-// task3
+// task3        - Переприсвоїти кожній змінній з завдання значення на довільне.
+//                Вивести кожну змінну за допомогою: console.log , alert, document.write
 
 
-// let str1 = 'name';
-// let str2 = 'title';
-// let str3 = 'script';
-// let str4 = 'work';
-// let num1 = 23;
-// let num2 = 65;
-// let numNegative = -784;
-// let num3 = 987;
-// let num4 = 6.19;
-// let num5 = 5.29;
-// let num6 = 105;
-// let booleanPositive = 'Friday';
-// let booleanNegative = 75;
+// str1 = 'name';
+// str2 = 'title';
+// str3 = 'script';
+// str4 = 'work';
+// num1 = 23;
+// num2 = 65;
+// numNegative = -784;
+// num3 = 987;
+// num4 = 6.19;
+// num5 = 5.29;
+// num6 = 105;
+// booleanPositive = 'Friday';
+// booleanNegative = 75;
 
 
 // task4
@@ -122,7 +124,7 @@
 // document.write(booleanNegative);
 
 
-// task5
+// task5   - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person. (Не об'єкт)
 
 
 // let firstName = 'Shvets';
@@ -131,7 +133,8 @@
 // let person = firstName + middleName + lastName;
 
 
-//task6
+//task6   - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
+//           Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
 
 
 // let name = prompt("Ім'я: ");
@@ -141,7 +144,7 @@
 // alert(`Вітаю ${name} ${lastName}. Тобі ${age} років`);
 
 
-// task7
+// task7  - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
 
 
 // let a = 100;
@@ -153,7 +156,19 @@
 // console.log(typeof c);
 
 
-// task8
+// task8    - Визначити відповідний оператор в виразах що б вийшов відповідний результат.
+//            В однакових виразах не використовувати однакові оператори!!!
+//            5 ? 6 -> true
+//            5 ? 6 -> false
+//            5 ? 6 -> false
+//            5 ? 6 -> false
+//            10 ? 10 -> true
+//            10 ? 10 -> true
+//            10 ? 10 -> false
+//            10 ? 10 -> false
+//            10 ? 10 -> false
+//            123 ? '123' -> false
+//            123 ? '123' -> true
 
 
 // console.log(5 < 6);
@@ -169,12 +184,12 @@
 // console.log(123 !== '123');
 
 
-// task9
+// task9    - Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?
 
 
-let str = "20";
-let a = 5;
-document.write(str + a + "<br/>");  //  у даному випадку відбувається об'єднання за рахунок оператора + .
-document.write(str - a + "<br/>");  //  у трьох інших  випадках js розпізнає арифметичні дії і зводить строки до чисел і проводить арифметичну дію
-document.write(str * "2" + "<br/>");
-document.write(str / 2 + "<br/>");
+// let str = "20";
+// let a = 5;
+// document.write(str + a + "<br/>");  //  у даному випадку відбувається об'єднання за рахунок оператора + .
+// document.write(str - a + "<br/>");  //  у трьох інших  випадках js розпізнає арифметичні дії і зводить строки до чисел і проводить арифметичну дію
+// document.write(str * "2" + "<br/>");
+// document.write(str / 2 + "<br/>");
