@@ -22,9 +22,9 @@
 // let flat = +prompt('Enter the number of flat:');
 // if (flat > 0 && flat <= 20){
 //     alert('The first entrance')
-// } else if (flat <= 48){
+// } else if (flat > 20 && flat <= 48){
 //     alert('The second entrance')
-// } else if (flat <= 90){
+// } else if (flat > 48 && flat <= 90){
 //     alert('The third entrance')
 // } else{
 //     alert('Wrong number')
