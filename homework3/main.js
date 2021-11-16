@@ -27,14 +27,14 @@
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
 
 
-// for(i=0; i < 10; i++){
+// for(let i=0; i < 10; i++){
 //     document.write('<div> item </div>');
 // }
 
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
 
 
-// for(i=0; i < 10; i++){
+// for(let i=0; i < 10; i++){
 //     document.write(`<div> item ${i} </div>`);
 // }
 
@@ -122,28 +122,28 @@
 
 // - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
 
-// for (i = 1; i <= 10; i++){
+// for (let i = 1; i <= 10; i++){
 //     console.log(`${i}`);
 //     document.write(`<p> ${i} </p>`);
 // }
 
 // - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
 
-// for (i = 1; i <= 100; i++){
+// for (let i = 1; i <= 100; i++){
 //     console.log(`${i}`);
 //     document.write(`<p> ${i} </p>`);
 // }
 
 // - Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
 
-// for (i = 1; i <= 100; i+=2){
+// for (let i = 1; i <= 100; i+=2){
 //     console.log(`${i}`);
 //     document.write(`<p> ${i} </p>`);
 // }
 
 // - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
 
-// for (i = 0; i < 100; i++){
+// for (let i = 0; i < 100; i++){
 //     if(i % 2 === 0){
 //     console.log(`${i}`);
 //     document.write(`<p> ${i} </p>`);
@@ -152,7 +152,7 @@
 
 // - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
 
-// for (i = 0; i < 100; i++){
+// for (let i = 0; i < 100; i++){
 //     if(i % 2 > 0){
 //     console.log(`${i}`);
 //     document.write(`<p> ${i} </p>`);
