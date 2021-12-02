@@ -147,11 +147,15 @@ let coursesArray = [
 for (const course of coursesArray) {
     let block = document.createElement('div');
     document.body.append(block);
+    let block1 = document.createElement('div');
     let title = document.createElement('h1');
     let monthDuration = document.createElement('p');
     let hourDuration = document.createElement('p');
     let modules = document.createElement('ul');
-    block.append(title, monthDuration, hourDuration, modules);
+    block.append(title, block1, modules);
+    block1.append( monthDuration, hourDuration);
+    block1.style.display = 'flex';
+    block1.style.columnGap = '30px';
     title.innerText = course.title;
     monthDuration.innerText = course.monthDuration;
     hourDuration.innerText = course.hourDuration;
