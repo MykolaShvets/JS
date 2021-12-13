@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+
+.post__item {
+    padding: 10px;
+    height: 400px;
+    border: 1px solid #000;
+}
+
+.comments{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
+.comment__item {
+    padding: 10px;
+    height: 400px;
+    border: 1px solid #000;
+}
