@@ -1,0 +1,177 @@
+/*--------reset-------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Arial";
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid #c2b7b7;
+    border-radius: 50px;
+    padding: 10px;
+    background: #e0d9d9;
+
+    color: black;
+
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    display: block;
+    border: 1px solid #c2b7b7;
+    border-radius: 50px;
+    padding: 10px;
+    background: #e0d9d9;
+}
+
+/*-----------index.html------------*/
+
+.users {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #000000;
+    background: #e8e8e8;
+}
+
+.user > a {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+/*---------user-details.html--------------*/
+
+.user__info {
+    padding: 20px;
+}
+
+.user__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 20px;
+    border: 1px solid #000;
+    background: #e8e8e8;
+}
+
+li {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.user__item h2,
+.user__item h3 {
+    padding-right: 10px;
+}
+
+.user__item:nth-child(5) > h2,
+.user__item:nth-child(8) > h2 {
+    align-self: flex-start;
+}
+
+.user__item:nth-child(1) > p {
+    font-size: 24px;
+}
+
+.posts {
+    width: 100%;
+}
+
+.posts > button {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.user__posts{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.post__title{
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #000000;
+    background: #e8e8e8;
+}
+
+
+/*-----------post-details.html----------*/
+
+.post__info{
+
+    border: 1px solid #000000;
+    background: #e8e8e8;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.post__item{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin: 10px;
+}
+
+.post__item:nth-child(4) h3{
+    align-self: flex-start;
+}
+
+
+.comments__block{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.comment{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000000;
+    background: #e8e8e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 10px;
+}
+
+.comment p {
+    font-size: 12px;
+}
